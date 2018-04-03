@@ -22,10 +22,10 @@ The goals we set out at the beginning:
 3. We used the GY-68 with BMP180 module to capture temperature, altitude and pressure
 4. For GPS/compass we used the GYGPSV5-NEO with UBLOX NEO-M8N and HMC5983
 5. To communicate with the ground, we thought SMS messages would be good below 4000ft and some type of radio transciever *should* be good for the duration, assuming ample radio power and antennas.
-a. To that extent we mistakenly bought a SIM800C GPRS GSM module (stupid 2G expiration in the US) which was later replaced by a SIM5320E module to work with 3G Us networks.
-b. For radios we found 1W RFM23BP LORA radios from HopeRF that we *think* will have a range of ~40 miles
-c. We'll use two HG908P-RSP 8dBi flat patch antennas from L-com to TX from the payload and RX on the ground.
-d. Some FTDI232 adapters will be needed to connect the radios to our Pi and the ground-chasing laptop
+    1. To that extent we mistakenly bought a SIM800C GPRS GSM module (stupid 2G expiration in the US) which was later replaced by a SIM5320E module to work with 3G Us networks.
+    2. For radios we found 1W RFM23BP LORA radios from HopeRF that we *think* will have a range of ~40 miles
+    3. We'll use two HG908P-RSP 8dBi flat patch antennas from L-com to TX from the payload and RX on the ground.
+    4. Some FTDI232 adapters will be needed to connect the radios to our Pi and the ground-chasing laptop
 6. For other cameras we bought three EKEN H9R 4K Sports Action Cameras
 7. We found some 3.7V 2000mAh LiPo batteries and MB102 breakout boards for clean power, at least for the radio and GSM module
 8. Balloon is TBD
